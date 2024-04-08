@@ -37,6 +37,7 @@
   - Creating a color palette based on standardized tailwind colors.
   - Creating a UI Kit and building components on top of it.
   - Iterating on past designs and coming up with different variations to compare side-by-side.
+  - Creating prototypes with hover, click, and scroll interactions.
 
   </details>
 
@@ -46,6 +47,7 @@
 
   - Using TypeScript properly (Primitive types, function types, complex types, union types, type narrowing, object types/interfaces, type extensions, type nesting).
   - Using React Devtools.
+  - Building UI components bottom up (or inside out) using [Storybook](https://storybook.js.org/) instead of top down (outside in).
 
   </details>
 
