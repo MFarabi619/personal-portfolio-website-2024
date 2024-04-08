@@ -45,7 +45,7 @@
 <br>
 
   - Using TypeScript properly (Primitive types, function types, complex types, union types, type narrowing, object types/interfaces, type extensions, type nesting).
-  -   
+  - Using React Devtools.
 
   </details>
 
