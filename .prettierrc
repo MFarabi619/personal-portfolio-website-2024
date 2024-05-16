@@ -3,5 +3,7 @@
     "tabWidth": 4,
     "semi": false,
     "singleQuote": true,
+    "bracketSpacing": false,
+    "bracketSameLine": false,
     "plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-sh"]
 }
