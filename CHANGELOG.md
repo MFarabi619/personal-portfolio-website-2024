@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/MFarabi619/personal-portfolio-website-2024/compare/v1.0.0...v1.1.0) (2024-05-16)
+
+
+### Features
+
+* Another test commit for semantic release ([fdc0298](https://github.com/MFarabi619/personal-portfolio-website-2024/commit/fdc0298e8431eca269317098eed181fdd92e1834))
+
 # 1.0.0 (2024-05-16)
 
 
