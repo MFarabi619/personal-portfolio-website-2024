@@ -2,6 +2,70 @@
 # Personal Portfolio Website 2024
 ### [Project Brief](https://docs.google.com/document/d/1xX3JyhCoY1ZcdFDHziUkMAU3QRtyvLnhaLeK502Ml9o/edit?usp=sharing) | [Figma Design](https://www.figma.com/file/vvyBG2wZJKSlHk0ZiEVzrd/Personal-Portfolio-Website-2024?type=design&node-id=5%3A25&mode=design&t=0Yfu1uf0oAzN5K2X-1)
 
+## 🏗️ This project is a work in progress 🚧
+
+It's also being used as a learning opportunity for the following tools and technologies:
+
+<!-- Figma -->
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer">
+  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma Logo" width="40" height="40"/>
+</a>
+<!-- Storybook -->
+<a href="https://storybook.js.org/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" alt="Storybook Logo" width="40" height="40"/>
+</a>
+<!-- Sanity -->
+<a href="https://www.sanity.io/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sanity/sanity-original.svg" alt="Sanity Logo" width="40" height="40"/>
+</a>
+<!-- pnpm -->
+<a href="https://pnpm.io/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original-wordmark.svg" alt="pnpm Logo" width="40" height="40"/>
+</a>
+<!-- Docker -->
+<a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" alt="Docker Logo" width="40" height="40"/>
+</a>
+<!-- TypeScript -->
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript Logo" width="40" height="40"/>
+</a>
+<!-- Node.js -->
+<a href="https://nodejs.org/en/about" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" alt="Node.js Logo" width="40" height="40"/>
+</a>
+<!-- Next.js -->
+<a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js Logo" width="40" height="40"/>
+</a>
+<!-- React -->
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo" width="40" height="40"/>
+</a>
+<!-- Tailwind CSS -->
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS Logo" width="40" height="40"/>
+</a>
+<!-- Jest -->
+<a href="https://jestjs.io/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest Logo" width="40" height="40"/>
+</a>
+<!-- Playwright -->
+<a href="https://playwright.dev/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" alt="Playwright Logo" width="40" height="40"/>
+</a>
+<!-- GitHub Actions -->
+<a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="GitHub Actions Logo" width="40" height="40"/>
+</a>
+<!-- Amazon Web Services -->
+<a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS Logo" width="40" height="40"/>
+</a>
+
+
+
+
 <details>
 <summary>Learning Log</summary>
 <br>
