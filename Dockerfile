@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /src/app
 
 # Install pnpm globally
 RUN npm install -g pnpm@8.15.6
