@@ -4,7 +4,7 @@ import {create} from "@storybook/theming"
 addons.setConfig({
 // theme: themes.dark,
 theme: create({
-    base: "light",
+    base: "dark",
 
     brandTitle: "Mumtahin Farabi",
     brandUrl: "https://mfarabi.dev",
