@@ -34,7 +34,9 @@
   - Gathering inspiration from [UI Patterns](https://ui-patterns.com/), [Tuk](https://tuk.dev/), [Awwards](https://www.awwwards.com/), and [Dribbble](https://dribbble.com/).
   - Using components with properties, variables, styles, and auto layout.
   - Making glassmorphic components.
+  - Creating a responsive type scale that integrates tightly with components.
   - Creating a color palette based on standardized tailwind colors.
+  - Relying on existing tailwind primitive tokens, and mapping them to semantic tokens for component development.
   - Creating a UI Kit and building components on top of it.
   - Iterating on past designs and coming up with different variations to compare side-by-side.
   - Creating prototypes with hover, click, and scroll interactions.
@@ -45,14 +47,23 @@
   <summary>Front-End Development</summary>
 <br>
 
+  - Using [pnpm](https://pnpm.io/) instead of npm or yarn.
+  - Setting up [only-allow](https://github.com/supanpanCn/npm-only-allow) to enforce the use of pnpm instead of npm.
+  - Adding custom scripts to the package.json.
   - Using TypeScript properly (Primitive types, function types, complex types, union types, type narrowing, object types/interfaces, type extensions, type nesting).
-  - Using React Devtools.
+  - Using [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [React DevTools](https://react.dev/learn/react-developer-tools) for debugging.
   - Building UI components bottom up (or inside out) using [Storybook](https://storybook.js.org/) instead of top down (outside in).
 
   </details>
 
   <details>
   <summary>Back-End Development</summary>
+
+    - Setting up GitHub Actions for CI/CD on cloud.
+    - Creating modular, reusable actions with the option of skipping e2e tests because they take so long.
+    - Caching artifacts between workflow runs with timeouts to save time and resources.
+    - Using [Act](https://nektosact.com/) to test GitHub Actions locally which uses the Docker engine.
+
 <br>
     
 - Containerizing on Docker.
