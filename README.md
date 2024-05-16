@@ -53,16 +53,17 @@
   - Using TypeScript properly (Primitive types, function types, complex types, union types, type narrowing, object types/interfaces, type extensions, type nesting).
   - Using [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [React DevTools](https://react.dev/learn/react-developer-tools) for debugging.
   - Building UI components bottom up (or inside out) using [Storybook](https://storybook.js.org/) instead of top down (outside in).
+  - Configuring linting with [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/).
 
   </details>
 
   <details>
   <summary>Back-End Development</summary>
 
-    - Setting up GitHub Actions for CI/CD on cloud.
-    - Creating modular, reusable actions with the option of skipping e2e tests because they take so long.
-    - Caching artifacts between workflow runs with timeouts to save time and resources.
-    - Using [Act](https://nektosact.com/) to test GitHub Actions locally which uses the Docker engine.
+  - Setting up GitHub Actions for CI/CD on cloud.
+  - Creating modular, reusable actions with the option of skipping e2e tests because they take so long.
+  - Caching artifacts between workflow runs with timeouts to save time and resources.
+  - Using [Act](https://nektosact.com/) to test GitHub Actions locally which uses the Docker engine.
 
 <br>
     
