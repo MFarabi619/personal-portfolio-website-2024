@@ -1,8 +1,18 @@
 import Image from 'next/image'
 
-export default function Home() {
+import {SanityDocument} from 'next-sanity'
+import {sanityFetch} from '@/utils/sanity/client'
+
+const CONTENT_QUERY = `*[_type == "experience"] {..., description}`
+
+export default async function Home() {
+    const data = await sanityFetch<SanityDocument[]>({query: CONTENT_QUERY})
+
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            {/* {data.map((data) => ( */}
+            {/*     <li key={data._id}>{data.title}</li> */}
+            {/* ))} */}
             <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200  lg:p-4 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
                     Get started by editing&nbsp;
