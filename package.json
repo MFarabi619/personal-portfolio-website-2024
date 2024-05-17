@@ -21,9 +21,17 @@
     "test-storybook": "storybook test"
   },
   "dependencies": {
+    "@portabletext/react": "^3.0.18",
+    "@sanity/client": "^6.18.2",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/react-loader": "^1.9.19",
+    "@sanity/vision": "^3.42.1",
     "next": "14.2.3",
+    "next-sanity": "^7.1.4",
     "react": "^18",
     "react-dom": "^18",
+    "sanity": "^3.42.1",
+    "styled-components": "^6.1.11",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {

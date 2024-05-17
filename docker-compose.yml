@@ -1,14 +1,16 @@
 version: '3.8'
 
 services:
-  app:
-    build: .
-    ports:
-      - '3000:3000' # Bind port for Next.js app
-      - '6006:6006' # Bind port for Storybook
-    volumes: # Mount existing volumes to save space
-      - .:/app
-      - /app/node_modules
-    environment:
-      NODE_ENV: development
-    command: sh -c "pnpm dev & pnpm run storybook"
+    app:
+        build: .
+        ports:
+            - '3000:3000' # Bind port for Next.js app
+            - '6006:6006' # Bind port for Storybook
+        volumes:
+            - ./:/src
+            - /app/node_modules
+        environment:
+            NODE_ENV: development
+            CHOKIDAR_USEPOLLING: 'true' # Use polling for file watching
+        command: sh -c "pnpm dev & pnpm run storybook"
+        working_dir: /src
