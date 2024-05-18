@@ -12,8 +12,12 @@ export const experienceType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'companyLogo',
+      name: 'logo',
       type: 'image',
+    }),
+    defineField({
+      name: 'role',
+      type: 'string',
     }),
     defineField({
       name: 'startDate',
@@ -38,7 +42,7 @@ export const experienceType = defineType({
     defineField({
       name: 'description',
       type: 'array',
-      of: [{type: 'block'}]
+      of: [{type: 'block'}],
     }),
     defineField({
       name: 'projectOrProductImage',
