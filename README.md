@@ -122,6 +122,7 @@ It's also being used as a learning opportunity for the following tools and techn
   - Using [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [React DevTools](https://react.dev/learn/react-developer-tools) for debugging.
   - Building UI components bottom up (or inside out) using [Storybook](https://storybook.js.org/) instead of top down (outside in).
   - Configuring linting with [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/).
+  - Migrating from Next.js project from app directory to src directory.
 
   </details>
 
@@ -132,7 +133,12 @@ It's also being used as a learning opportunity for the following tools and techn
   - Creating modular, reusable actions with the option of skipping e2e tests because they take so long.
   - Caching artifacts between workflow runs with timeouts to save time and resources.
   - Using [Act](https://nektosact.com/) to test GitHub Actions locally which uses the Docker engine.
-  - Containerizing on Docker.
+  - Containerizing Next.js app with [Docker](https://www.docker.com/).
+  - Using [Docker Compose](https://docs.docker.com/compose/) to run multiple containers and automate long Docker commands.
+  - Setting up [Sanity](https://www.sanity.io/) as a headless CMS.
+      - Creating schemas for content types.
+      - Handling content migrations, also known as schema change management.
+  - Performing [GRAPHQL](https://graphql.org/) queries to fetch data from Sanity Content Lake.
 
   </details>
 
