@@ -138,6 +138,7 @@ It's also being used as a learning opportunity for the following tools and techn
   - Setting up [Sanity](https://www.sanity.io/) as a headless CMS.
       - Creating schemas for content types.
       - Handling content migrations, also known as schema change management.
+      - Creating fields for content types that refer to other schema types and perform validations such as unique and required.
   - Performing [GRAPHQL](https://graphql.org/) queries to fetch data from Sanity Content Lake.
 
   </details>
