@@ -20,6 +20,12 @@ export const experienceType = defineType({
       type: 'string',
     }),
     defineField({
+      name: 'technologiesUsed',
+      type: 'array',
+      of: [{type: 'reference', to: [{type: 'technology'}]}],
+      validation: (Rule) => Rule.unique(),
+    }),
+    defineField({
       name: 'startDate',
       title: 'Start Date',
       type: 'date',

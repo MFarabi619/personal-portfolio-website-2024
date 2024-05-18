@@ -21,7 +21,8 @@ export const projectType = defineType({
     defineField({
       name: 'technologiesUsed',
       type: 'array',
-      of: [{type: 'technology'}],
+      of: [{type: 'reference', to: [{type: 'technology'}]}],
+      validation: (Rule) => Rule.unique(),
     }),
     defineField({
       name: 'liveLink',
