@@ -14,12 +14,18 @@ dependencies:
   '@sanity/image-url':
     specifier: ^1.0.2
     version: 1.0.2
+  '@sanity/preview-url-secret':
+    specifier: ^1.6.13
+    version: 1.6.13(@sanity/client@6.18.2)
   '@sanity/react-loader':
     specifier: ^1.9.19
     version: 1.9.19(@sanity/client@6.18.2)(react@18.3.1)
   '@sanity/vision':
     specifier: ^3.42.1
     version: 3.42.1(@babel/runtime@7.24.5)(@codemirror/lint@6.7.1)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11)
+  dotenv:
+    specifier: ^16.4.5
+    version: 16.4.5
   next:
     specifier: 14.2.3
     version: 14.2.3(@babel/core@7.24.5)(@playwright/test@1.44.0)(react-dom@18.3.1)(react@18.3.1)
@@ -3818,7 +3824,7 @@ packages:
     peerDependencies:
       '@sanity/client': ^6.18.2
     dependencies:
-      '@sanity/client': 6.18.2(debug@4.3.4)
+      '@sanity/client': 6.18.2
       '@sanity/uuid': 3.0.2
     dev: false
 
@@ -8180,7 +8186,6 @@ packages:
   /dotenv@16.4.5:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
-    dev: true
 
   /duplexer2@0.1.4:
     resolution: {integrity: sha512-asLFVfWWtJ90ZyOUHMqk7/S2w2guQKxUI2itj3d92ADHhxUSbCMGi1f1cBcJ7xM1To+pE/Khbwo1yuNbMEPKeA==}
