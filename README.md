@@ -130,10 +130,7 @@ It's also being used as a learning opportunity for the following tools and techn
   - Creating modular, reusable actions with the option of skipping e2e tests because they take so long.
   - Caching artifacts between workflow runs with timeouts to save time and resources.
   - Using [Act](https://nektosact.com/) to test GitHub Actions locally which uses the Docker engine.
-
-<br>
-    
-- Containerizing on Docker.
+  - Containerizing on Docker.
 
   </details>
 
