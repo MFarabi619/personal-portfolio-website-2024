@@ -23,6 +23,7 @@
   "dependencies": {
     "@portabletext/react": "^3.0.18",
     "@sanity/client": "^6.18.2",
+    "@sanity/icons": "^2.11.8",
     "@sanity/image-url": "^1.0.2",
     "@sanity/preview-url-secret": "^1.6.13",
     "@sanity/react-loader": "^1.9.19",
@@ -97,5 +98,5 @@
       }
     ]
   },
-  "packageManager": "pnpm@8.15.6"
+  "packageManager": "pnpm@9.1.2"
 }
