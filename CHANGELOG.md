@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/MFarabi619/personal-portfolio-website-2024/compare/v1.1.0...v1.2.0) (2024-05-27)
+
+
+### Features
+
+* **Sanity:** Get Sanity Studio deployed and working ([9282947](https://github.com/MFarabi619/personal-portfolio-website-2024/commit/9282947c3f1be299cebae55239c122b45ac75fdf))
+* **Sanity:** Make 'Technologies Used' fields in experience and project content types references ([3246fe9](https://github.com/MFarabi619/personal-portfolio-website-2024/commit/3246fe99500c1de3e69cc825c02b9755b593cd8e))
+* **Sanity:** Migrate 'Company Logo' field to 'Logo' ([850fba2](https://github.com/MFarabi619/personal-portfolio-website-2024/commit/850fba27a10e45fb3ff5b510f57c73b493883dea))
+
 # [1.1.0](https://github.com/MFarabi619/personal-portfolio-website-2024/compare/v1.0.0...v1.1.0) (2024-05-16)
 
 
