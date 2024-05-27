@@ -20,15 +20,17 @@ jobs:
                   node-version: 'lts/*'
 
             - name: Install pnpm 📦
-              run: npm install -g pnpm@8.15.6
+              run: npm install -g pnpm
 
             - name: Install dependencies 📂
-              run: pnpm install
+              run: pnpm i
 
             - name: Build project 🏗️
-              run: pnpm run build
+              env:
+                  SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
+              run: pnpm build
 
-            - name: Run Semantic Release 🤖 
+            - name: Run Semantic Release 🤖
               env:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
               run: pnpm exec semantic-release
