@@ -64,8 +64,10 @@ It's also being used as a learning opportunity for the following tools and techn
 <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS Logo" width="40" height="40"/>
 </a>
-
-
+<!-- Neovim -->
+<a href="https://neovim.io/" target="_blank" rel="noreferrer">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Neovim" width="40" height="40"/>
+</a>
 
 
 <details>
