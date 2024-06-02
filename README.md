@@ -50,7 +50,7 @@ It's also being used as a learning opportunity for the following tools and techn
 </a>
 <!-- Framer Motion -->
 <a href="https://www.framer.com/motion/" target="_blank" rel="noreferrer">
-  <img src="https://svgshare.com/i/16i9.svg" alt="Framer Motion Logo" width="100" height="40"/>
+  <img src="https://svgshare.com/i/16jP.svg" alt="Framer Motion Logo" width="100" height="40"/>
 </a>
 <!-- Jest -->
 <a href="https://jestjs.io/" target="_blank" rel="noreferrer">
