@@ -48,6 +48,10 @@ It's also being used as a learning opportunity for the following tools and techn
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS Logo" width="40" height="40"/>
 </a>
+<!-- Framer Motion -->
+<a href="https://www.framer.com/motion/" target="_blank" rel="noreferrer">
+  <img src="https://svgshare.com/i/16i9.svg" alt="Framer Motion Logo" width="100" height="40"/>
+</a>
 <!-- Jest -->
 <a href="https://jestjs.io/" target="_blank" rel="noreferrer">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest Logo" width="40" height="40"/>
